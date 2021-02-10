@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Books for children</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Petya Ferreira">
+        <meta name="description" content="Web site for children books">
+        <link rel="stylesheet" href="product_style.css">
+    </head>
+
+    <body>
+        <header id="header">
+            <img id="header-img" src="logo.jpeg" width="200px" height="120px">
+            <h1>Books for children</h1>
+            <nav id="nav-bar">
+                <button class="button-nav"><a href="#about" class="nav-link">Features</a></button>
+                <button class="button-nav"><a href="#how-it-works"class="nav-link">How it works</a></button>
+                <button class="button-nav"><a href="#contact"class="nav-link">Contact</a></button>
+            </nav>
+        </header>
+        <main>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <h2>Subscribe for our monthly newsletter</h2>
+                <div class="form-group">
+                    <label id="email-label" for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" 
+                        placeholder="Please enter your e-mail" required>
+                </div>
+                <input type="submit" value="Submit" id="submit" name="submit">
+            </form>
+            <h2 id="about">About our books</h2>
+            <div id="features">   
+                <h3>Premium materials</h3>
+                    <p>We use high quality paper and offer both hard cover books and soft 
+                        cover books.</p>
+                    <p>We are in contact with several publishers in Bulgaria to get 
+                        the books published.</p>
+                    <p>We still need a designer to create the styling and drawings 
+                        for the books. If you are interested, please get in touch here: </p>
+                <h3>Fast shipping</h3>
+                    <p>Your order will be shipped latest 24 hours after purchase</p>
+                <h3>Efficient customer support</h3>
+                    <p>If you need help with book choice or if you have any questions our
+                customer support will answer your e-mail within 3 working days.</p>
+            </div>
+            <div id="how-it-works">
+                <h2>Watch the video to see how it works</h2>
+                <video id="video"  width="480px" controls>
+                    <source src="img_9503.mov">
+                </video>
+            </div>
+            <div id="contact">
+                <h3>Contact</h3>
+                    <p>Get in touch with us on: pabtravels@gmail.com.</p>
+                    <p>To watch some interesting videos and get inspiration 
+                        about activities with children, check out our 
+                        <a href="https://www.youtube.com/channel/UCt1QTbHaFvCWsAsR34jLzrQ"
+                        target="#blank">
+                        YouTube channel.</a> Please Subscribe for it if you like it!
+                    </p>
+            </div>
+        </main>
+    </body>
+</html>
